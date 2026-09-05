@@ -1,0 +1,133 @@
+<div
+  class="spider-card"
+  data-name="Kaivalya Kapole"
+  data-alias="The Websmith"
+  data-github="Kaivalya-Kapole23"
+  data-suit="#24D6C7"
+>
+  <style>
+    .spider-card {
+      --suit: #24d6c7;
+      --hot: #ffcf5a;
+      --ink: #07131c;
+      width: 320px;
+      height: 440px;
+      box-sizing: border-box;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      color: #eefaf8;
+      font-family: "Trebuchet MS", sans-serif;
+      background: linear-gradient(145deg, #102e3b 0%, var(--ink) 56%, #15202f 100%);
+      border: 1px solid rgba(36, 214, 199, 0.8);
+      border-radius: 16px;
+      box-shadow: 10px 10px 0 #041017, inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .spider-card::before {
+      content: "";
+      position: absolute;
+      width: 230px;
+      height: 230px;
+      right: -95px;
+      top: -72px;
+      border: 1px solid rgba(36, 214, 199, 0.45);
+      border-radius: 50%;
+      box-shadow: 0 0 0 15px rgba(36, 214, 199, 0.08), 0 0 0 31px rgba(36, 214, 199, 0.06), 0 0 0 47px rgba(36, 214, 199, 0.05);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      position: relative;
+      margin: 0;
+      color: var(--hot);
+      font: 700 10px/1.2 monospace;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .alias {
+      position: relative;
+      max-width: 250px;
+      margin: 54px 0 5px;
+      color: var(--suit);
+      font: 900 34px/0.92 Impact, "Arial Narrow", sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .name {
+      margin: 0;
+      color: #d5e8e5;
+      font-size: 15px;
+    }
+
+    .handle {
+      margin: 4px 0 0;
+      color: rgba(238, 250, 248, 0.55);
+      font: 12px monospace;
+    }
+
+    .skills {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 28px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills li {
+      padding: 7px 9px;
+      color: var(--ink);
+      background: var(--suit);
+      border-radius: 3px;
+      font: 700 10px monospace;
+      text-transform: uppercase;
+    }
+
+    .signal {
+      position: absolute;
+      right: 20px;
+      bottom: 72px;
+      color: var(--hot);
+      font: 700 9px monospace;
+      letter-spacing: 1px;
+      transform: rotate(-90deg) translateX(100%);
+      transform-origin: bottom right;
+    }
+
+    .footer {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      color: rgba(238, 250, 248, 0.52);
+      border-top: 1px solid rgba(238, 250, 248, 0.2);
+      font: 10px monospace;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <p class="eyebrow">Spider Society // Field File 023</p>
+  <h1 class="alias">Your Spider-Alias</h1>
+  <p class="name">Kaivalya Kapole</p>
+  <p class="handle">@Kaivalya-Kapole23</p>
+
+  <ul class="skills">
+    <li>Frontend</li>
+    <li>Problem Solving</li>
+    <li>Open Source</li>
+  </ul>
+
+  <span class="signal">THREAD STATUS: CONNECTED</span>
+  <div class="footer">
+    <span>Spider-Society</span>
+    <span>Earth-023</span>
+  </div>
+</div>
